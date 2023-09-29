@@ -1,0 +1,26 @@
+public class Main {
+  public static void main(String[] args) {
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    for (int i = 0; i < cars.size(); i++) {
+      System.out.println(cars.get(i));
+    }
+  }
+}
+//The provided Java program uses a for loop to iterate through an ArrayList of strings and print each element. Here's a breakdown of the program:
+
+Import the ArrayList class from the java.util package.
+
+In the main method:
+
+Create an ArrayList named cars to store strings.
+Use the add method to add four strings ("Volvo," "BMW," "Ford," and "Mazda") to the cars list.
+Use a for loop to iterate through the cars list:
+
+Initialize an integer variable i to 0, which represents the index of the first element in the list.
+Set the loop condition to i < cars.size(), which ensures that the loop iterates as long as i is less than the size of the cars list.
+In each iteration of the loop, use cars.get(i) to retrieve the element at index i from the cars list.
+Print the retrieved element using System.out.println.
