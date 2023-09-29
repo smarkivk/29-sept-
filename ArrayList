@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class Main {
+  public static void main(String[] args) {
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    System.out.println(cars);
+  }
+}
+//The provided Java program demonstrates the use of the ArrayList class to create and manipulate a list of strings. Here's a breakdown of the program:
+
+Import the ArrayList class from the java.util package.
+
+In the main method:
+
+Create an ArrayList named cars to store strings.
+Use the add method to add four strings ("Volvo," "BMW," "Ford," and "Mazda") to the cars list.
+Finally, print the contents of the cars list using System.out.println(cars).
